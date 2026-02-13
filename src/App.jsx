@@ -12,13 +12,12 @@ import CreateProduct from "./E-commerceWebsite/CreateProduct";
 import Signin from "./E-commerceWebsite/Signin";
 import Register from "./E-commerceWebsite/Register";
 import ProductDetails from "./E-commerceWebsite/ProductDetails";
-
-
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
  
  return(
+  <HashRouter>
 <Router>
       <div className="app-container">
         <Header />
@@ -41,6 +40,7 @@ function App() {
         <Footer />
       </div>
     </Router>
+    </HashRouter>
   );
 }
 
