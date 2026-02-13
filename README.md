@@ -1,29 +1,41 @@
-# 🛒 Demo E-commerce Project
-
-A modern, fully responsive e-commerce web application designed to provide a seamless online shopping experience. This project focuses on a clean UI, intuitive navigation, and a robust frontend structure for product management.
+# E-commerce Store 🛒
+## Overview
+A responsive e-commerce React application with product listing, cart, and checkout functionality.
 
 ## 🚀 Live Demo
-[View Live Project](https://preethikasuburamani.github.io/Demo-E-com/)  
+[View Live Project](https://preethikasuburamani.github.io/E-commerce-Shopping-Application/)  
 *(Note: Make sure to enable GitHub Pages in your repository settings!)*
+**This project demonstrates:**
+Component-based architecture
+State management in React
+API integration
+Responsive UI design
 
-## ✨ Key Features
-* **Dynamic Product Display:** A visually appealing grid layout showcasing products with high-quality imagery and pricing.
-* **Shopping Cart Functionality:** Users can add items to their cart, view their selection, and manage quantities.
-* **Responsive Design:** Optimized for all devices—from desktop monitors to mobile screens—using CSS Flexbox and Grid.
-* **Category Filtering:** Easily browse products by category to find exactly what you're looking for.
-* **Interactive UI:** Smooth hover effects, transitions, and clear Call-to-Action (CTA) buttons to enhance user engagement.
+## Features
+- Add/remove items from cart
+- Update item quantities
+- Total price calculation
+- Responsive layout for mobile and desktop
+- Fetch products from API
+ 
+ **Tech Stack**
+React, JavaScript, HTML, CSS, Fetch API
 
-## 🛠️ Tech Stack
-* **HTML5:** Semantic markup for better accessibility and SEO.
-* **CSS3:** Custom styling featuring variables for consistent branding and responsive layouts.
-* **JavaScript:** Powering the interactive elements, cart logic, and dynamic content rendering.
-* **Google Fonts & Font Awesome:** Integrated for modern typography and professional iconography.
+**Screenshots** 
+![Home] <img width="1920" height="1080" alt="Screenshot (254) src="https://github.com/user-attachments/assets/1dff4788-6fe0-44fe-9924-7c26298830d9" />
+![Cart]  <img width="1920" height="1080" alt="Screenshot (256)" src="https://github.com/user-attachments/assets/e859d1fa-4337-4ffa-b53c-705cb9f19238" />
 
-## 📂 Project Structure
-```text
-├── index.html          # Main landing page
-├── products.html       # Product listing page (if applicable)
-├── cart.html           # Shopping cart view
-├── style.css           # Master stylesheet
-├── script.js           # Frontend logic and interactivity
-└── assets/             # Images and local icons
+
+## How to Run Locally
+1. Clone the repo  
+2. `npm install.`  
+3. `npm start.`
+
+## What I Learned
+- Component-based architecture in React  
+- Handling async API calls with `useEffect.`  
+- State management with `useState`
+
+**Contact**
+email :preethikasubramani02@gamil.com
+linkedin :https://www.linkedin.com/in/preethika-subramani/
