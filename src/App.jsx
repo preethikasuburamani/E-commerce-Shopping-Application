@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./E-commerceWebsite/Header"
 import Home from "./E-commerceWebsite/Home"
 import Nav from "./E-commerceWebsite/Nav"
-import { BrowserRouter as Router,Route,Routes,Link } from "react-router-dom"
+import {  HashRouter,Route,Routes,Link } from "react-router-dom"
 import Products from "./E-commerceWebsite/Products"
 import CountactUS from "./E-commerceWebsite/CountactUS"
 import AboutUs from "./E-commerceWebsite/AboutUs"
@@ -12,7 +12,6 @@ import CreateProduct from "./E-commerceWebsite/CreateProduct";
 import Signin from "./E-commerceWebsite/Signin";
 import Register from "./E-commerceWebsite/Register";
 import ProductDetails from "./E-commerceWebsite/ProductDetails";
-import { HashRouter, Routes, Route } from "react-router-dom";
 
 function App() {
  
