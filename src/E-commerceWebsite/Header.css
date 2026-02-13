@@ -1,0 +1,53 @@
+.headerContainer {
+ position: fixed;
+ top: 0;
+ right: 0;
+ left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #282c34;
+  padding: 5px 10px;
+  color: white;
+  z-index: 999;
+}
+
+.menuIcon:hover{
+   color: black;
+   cursor: pointer;
+}
+.searchContainer {
+  position: relative;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.searchContainer input {
+  width: 90%;
+  padding: 6px 30px 6px 10px; /* space for icon */
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.searchIcon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.signin{
+  padding:20px;
+  font-size: 20px;
+
+}
+.signin:hover{
+  color: black;
+  cursor: pointer;
+}
+
+.cartIcon:hover{
+  color: black;
+   cursor: pointer;
+}

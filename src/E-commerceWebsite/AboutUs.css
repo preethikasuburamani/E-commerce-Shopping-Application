@@ -1,0 +1,54 @@
+/* Container */
+.about-heading {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.about-heading h6 {
+  font-size: 1rem;
+  color: #555;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.about-heading h1 {
+  font-size: 2rem;
+  color: #222;
+}
+
+/* About section */
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  line-height: 1.7;
+  color: #444;
+  text-align: center;
+}
+
+.about p {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+/* Button */
+.about button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.1s ease;
+}
+
+.about button:hover {
+  background: #0056b3;
+}
+
+.about button:active {
+  transform: scale(0.97);
+}

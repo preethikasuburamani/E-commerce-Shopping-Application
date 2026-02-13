@@ -1,0 +1,19 @@
+/* Make the html/body full height */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Flex layout for the whole app */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* full viewport height */
+}
+
+/* Routes content grows to fill space */
+.page-content {
+  flex: 1; /* pushes footer down */
+  margin-top: 60px; /* optional: offset for fixed header */
+}

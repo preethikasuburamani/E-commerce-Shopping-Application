@@ -1,0 +1,21 @@
+.footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+
+  width: 100%;
+}
+.footer .social-media {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    gap:30px;
+    padding: 30px;
+  
+
+}
+.footer .social-media:hover{
+  color: black;
+  cursor: pointer;
+}

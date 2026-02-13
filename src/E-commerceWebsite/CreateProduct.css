@@ -1,0 +1,81 @@
+/* Container */
+.postingProduct {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.postingProduct h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.8rem;
+}
+
+/* Form layout */
+.newProduct {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Labels */
+.newProduct label {
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 0.3rem;
+}
+
+/* Inputs & Textarea */
+.newProduct input,
+.newProduct textarea {
+  padding: 0.7rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.3s ease;
+}
+
+.newProduct input:focus,
+.newProduct textarea:focus {
+  outline: none;
+  border: 1px solid #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+/* Textarea */
+.newProduct textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Button */
+.newProduct button {
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.1s ease;
+}
+
+.newProduct button:hover {
+  background: #0056b3;
+}
+
+.newProduct button:active {
+  transform: scale(0.97);
+}
+
+/* Helper text */
+.newProduct p {
+  font-size: 0.9rem;
+  color: #777;
+  margin: 0;
+}
