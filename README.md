@@ -3,7 +3,8 @@
 A responsive e-commerce React application with product listing, cart, and checkout functionality.
 
 ## 🚀 Live Demo
-[View Live Project](https://preethikasuburamani.github.io/E-commerce-Shopping-Application/)  
+[View Live Project]  (https://preethikasuburamani.github.io/E-commerce-Shopping-Application/)  
+
 *(Note: Make sure to enable GitHub Pages in your repository settings!)*
 **This project demonstrates:**
 Component-based architecture
