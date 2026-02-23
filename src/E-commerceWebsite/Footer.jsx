@@ -11,9 +11,9 @@ const Footer = () => {
       <p>© {new Date().getFullYear()} My Fashion Brand. All Rights Reserved.</p>
       
       <div className="social-media">
-     <Link to="https://www.facebook.com/"> <FaFacebookF /></Link> 
-     <Link to="https://www.instagram.com/accounts/login/?hl=en"> <FaInstagramSquare /></Link>
-     <Link to="https://x.com/"> < FaTwitter/></Link>
+     <Link to="https://www.facebook.com/" className="icon"> <FaFacebookF /></Link> 
+     <Link to="https://www.instagram.com/accounts/login/?hl=en" className="icon"> <FaInstagramSquare /></Link>
+     <Link to="https://x.com/" className="icon"> < FaTwitter/></Link>
       </div>
     </footer>
   );

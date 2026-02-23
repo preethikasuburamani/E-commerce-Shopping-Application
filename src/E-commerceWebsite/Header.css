@@ -13,7 +13,7 @@
 }
 
 .menuIcon:hover{
-   color: black;
+  color: lightblue;
    cursor: pointer;
 }
 .searchContainer {
@@ -37,17 +37,21 @@
   transform: translateY(-50%);
   cursor: pointer;
 }
+.searchIcon:hover{
+   color: lightblue;
+  cursor: pointer;
+}
 .signin{
   padding:20px;
   font-size: 20px;
 
 }
 .signin:hover{
-  color: black;
+   color: lightblue;
   cursor: pointer;
 }
 
 .cartIcon:hover{
-  color: black;
-   cursor: pointer;
+  color: lightblue;
+  cursor: pointer;
 }

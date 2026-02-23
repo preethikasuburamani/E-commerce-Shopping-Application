@@ -1,7 +1,10 @@
 import React from 'react'
 import "./Home.css"
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+
+  let navigate = useNavigate()
   return (
     <>
 
@@ -9,8 +12,8 @@ const Home = () => {
       <div className='content'>
         <h1 className='name'>Fashion Garments</h1>
         <p className='tagline'>“Where style meets comfort ,crafted for every occasion.
-          <p>Fashion that defines you, beyond trends</p></p>
-        <button>start our fashion here</button>
+        <p>Fashion that defines you, beyond trends</p></p>
+        <button onClick={()=>{navigate("/createProduct")}}>start our fashion here</button>
       </div>
     </div>
 

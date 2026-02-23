@@ -27,7 +27,7 @@ const AboutUs = () => {
                     creating compelling digital experiences".
                 </p>
 
-                <button>SEE MY WORK</button>
+        
 
             </div>
 
